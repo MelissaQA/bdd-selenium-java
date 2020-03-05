@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: org.testingworld.automation.testcases.RunCukesTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 2, Errors: 2, Skipped: 3, Time elapsed: 25.375 s <<< FAILURE! - in org.testingworld.automation.testcases.RunCukesTest
+Then User logged in successfully(Scenario: Login with valid credentials)  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError
+
+Scenario: Login with valid credentials  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError
+
+When User enters incorrecto username(Scenario: Login with invalid credentials)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NullPointerException
+
+Scenario: Login with invalid credentials  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NullPointerException
+
